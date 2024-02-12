@@ -1,0 +1,12 @@
+
+button {
+    margin: 0px 20px;
+    border: 1px solid grey;
+    height: 50px;
+}
+
+
+#current-page-id{
+    font-size: 18px;
+    font-weight: bold;
+}

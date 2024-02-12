@@ -1,0 +1,65 @@
+
+.hide-modal{
+    display: none !important;  /* OCULTAR EL DIV CON LA CLASS HIDE-MODAL*/
+}
+
+.container-modal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    /* padding: 20px; */
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 10px; */
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.modal-dialog{
+    background-color: rgba(195, 197, 180, 1);
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+}
+
+form{
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 30px;
+    margin: 10px;
+    background-color: rgba(9, 9, 9, 0.5);
+    color: white;
+    padding: 5px;
+}
+
+input::placeholder{
+    color: rgba(226, 215, 215, 0.626);
+    font-size: 16px;
+}
+
+.type-checkbox input[type="checkbox"],
+.type-checkbox label {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+
+.type-checkbox label {
+    font-size: 16px !important;
+    color: black;
+    font-weight: 500;
+}
+
+span{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
